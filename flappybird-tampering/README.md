@@ -3,11 +3,19 @@
 A Flappy Bird clone in Python/Pygame with its physics pulled out into named settings, used in
 coding club to show how changing a handful of numbers changes how a whole game feels.
 
-The point of the session is **not** to write a game from scratch — there isn't time. It's to open
-someone else's working code, find the variables that control the physics, change one, and run it
-again.
+HOW TO PLAY
+  SPACE or CLICK ... flap
+  R ............... restart
 
----
+HOW TO TWEAK (while the game is running!)
+  UP / DOWN ....... pick a setting
+  LEFT / RIGHT .... change it
+  H ............... show the bird's hitbox
+  TAB ............. hide the settings panel (for screenshots)
+  BACKSPACE ....... reset everything back to normal
+
+Put the img/ folder next to this file. If it's missing, the game
+still runs with coloured boxes instead of pictures.
 
 ## Requirements
 
