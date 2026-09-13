@@ -18,6 +18,8 @@ still runs with coloured boxes instead of pictures.
 """
 
 import random
+from pathlib import Path
+
 import pygame
 
 pygame.init()
@@ -73,10 +75,13 @@ panel_font = pygame.font.SysFont("consolas,couriernew,monospace", 20)
 hint_font = pygame.font.SysFont("consolas,couriernew,monospace", 16)
 
 
+BASE_DIR = Path(__file__).resolve().parent
+
+
 def load_image(path, size, colour):
     """Load a picture. If it isn't there, use a coloured box instead."""
     try:
-        return pygame.image.load(path).convert_alpha()
+        return pygame.image.load(BASE_DIR / path).convert_alpha()
     except (pygame.error, FileNotFoundError):
         surf = pygame.Surface(size, pygame.SRCALPHA)
         surf.fill(colour)
