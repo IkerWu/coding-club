@@ -3,9 +3,10 @@
 A Flappy Bird clone in Python/Pygame with its physics pulled out into named settings, used in
 coding club to show how changing a handful of numbers changes how a whole game feels.
 
+```
 HOW TO PLAY
   SPACE or CLICK ... flap
-  R ............... restart
+  R .............. restart
 
 HOW TO TWEAK (while the game is running!)
   UP / DOWN ....... pick a setting
@@ -13,9 +14,10 @@ HOW TO TWEAK (while the game is running!)
   H ............... show the bird's hitbox
   TAB ............. hide the settings panel (for screenshots)
   BACKSPACE ....... reset everything back to normal
+```
 
-Put the img/ folder next to this file. If it's missing, the game
-still runs with coloured boxes instead of pictures.
+Put the `img/` folder next to `Tweaked_Flappy.py`. If it's missing, the game still runs with
+coloured boxes instead of pictures.
 
 ## Requirements
 

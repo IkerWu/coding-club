@@ -220,3 +220,4 @@ __marimo__/
 # Mac and PyCharm
 .DS_Store
 .idea/.vscode/
+.vscode/
