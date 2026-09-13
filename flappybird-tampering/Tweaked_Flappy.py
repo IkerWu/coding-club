@@ -1,27 +1,6 @@
-"""
-FLAPPY BIRD - TWEAK EDITION
-Coding Club
-
-HOW TO PLAY
-  SPACE or CLICK ... flap
-  R ............... restart
-
-HOW TO TWEAK (while the game is running!)
-  UP / DOWN ....... pick a setting
-  LEFT / RIGHT .... change it
-  H ............... show the bird's hitbox
-  TAB ............. hide the settings panel (for screenshots)
-  BACKSPACE ....... reset everything back to normal
-
-Put the img/ folder next to this file. If it's missing, the game
-still runs with coloured boxes instead of pictures.
-"""
-
 import random
 from pathlib import Path
-
 import pygame
-
 pygame.init()
 
 # ----------------------------------------------------------------
